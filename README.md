@@ -1,6 +1,10 @@
 # 🚀 Fred Joaquim — Developer Portfolio
 
-Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e evolução como desenvolvedor web.
+Portfólio profissional desenvolvido para apresentar meus projetos,
+habilidades e serviços como desenvolvedor web.
+
+O site foi criado com foco em apresentação profissional,
+performance, responsividade e experiência do usuário.
 
 A proposta deste projeto foi sair de uma landing page simples e transformar o portfólio em uma experiência mais moderna, profissional e interativa, focando em:
 

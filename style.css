@@ -396,9 +396,9 @@ footer{
   }
 
   .hero h1{
-    font-size:clamp(38px, 12vw, 52px);
+    font-size:clamp(32px, 9.5vw, 42px);
     line-height:1.05;
-    letter-spacing:-1.5px;
+    letter-spacing:-1px;
   }
 
   .hero-desc{
@@ -421,6 +421,10 @@ footer{
   .stats{
     grid-template-columns:1fr 1fr;
     margin:50px 0;
+  }
+
+  .stats .stat:nth-child(3){
+  grid-column:1 / -1;
   }
 
   .stat{

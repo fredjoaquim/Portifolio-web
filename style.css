@@ -31,7 +31,12 @@ svg{
   --card-glow:rgba(59,130,246,0.08);
 }
 
-html{scroll-behavior:smooth}
+html{
+  scroll-behavior:smooth;
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+}
+
 body{
   background:var(--bg);
   color:var(--text);
@@ -387,6 +392,9 @@ footer{
   }
 
   .hero{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
     padding:70px 0 50px;
   }
 
@@ -396,10 +404,12 @@ footer{
   }
 
   .hero h1{
-    font-size:clamp(28px, 8vw, 36px);
-    line-height:1.05;
-    letter-spacing:-1px;
-  }
+  font-size:30px !important;
+  line-height:1.08;
+  letter-spacing:-1px;
+  width:100%;
+  max-width:100%;
+}
 
   .hero-desc{
     font-size:15px;
